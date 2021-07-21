@@ -213,6 +213,21 @@ header{
     margin: 30px 0;
 }
 
+/* update section */
+.update p{
+    font-size: 50px;
+    color: black;
+    padding: 100px;
+    text-align: center;
+    border: 5px solid #C80505;
+    margin: 72px;
+    font-weight: bold;
+}
+.update .fas{
+    font-size: 70px;
+    color: #C80505;
+    text-align: center;
+}
 
 /* footer section */
 footer{
@@ -244,7 +259,7 @@ footer{
     padding-bottom: 10px;
 }
 .foot h3{
-    font-size: 16px;
+    font-size: 15px;
     margin-left: 30px;
     line-height: 45px;
 }
@@ -255,6 +270,11 @@ footer{
     background-color: gray;
     padding: 8px;
     border-radius: 100%;
+}
+.foot .fas, .far{
+    font-size: 19px;
+    color: #fff;
+    margin-right: 8px;
 }
 .footer-end{
     background-color: #E8E8E8;
