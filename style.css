@@ -44,8 +44,20 @@ header{
     /* font-weight: bold; */
     color: black;
     font-size: 18px;
+    /* position: relative; */
     
 }
+/* .nav-menu ul li a::after {
+    content: '';
+    width: 0;
+    height: 3px;
+    background: #f14a60;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 25px;
+    transition: .5s;} */
+
 #active{
     border-bottom: 4px solid #C40300;
 }
@@ -340,7 +352,7 @@ header{
     display: table;
 }
 .animal-category .btn:hover {
-    background-color: #a31010;
+    background-color: #8C0909;
 
 }
 
